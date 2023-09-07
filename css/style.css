@@ -1,0 +1,1043 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    margin: 10rem auto 0rem;
+    max-width: 85rem;
+    box-sizing: border-box;
+
+
+}
+
+
+
+/* .whatsapp-link{
+    position: fixed;
+    right: 1vh;
+    bottom: 5vh;
+    height: 10vh;
+    width: 10vw;
+    float: inline-end;
+
+}
+.whatsapp-icon{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+
+} */
+
+
+.whatsapp-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    display: flex;
+    bottom: 1rem;
+    right: 1rem;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+/*#region NAVBAR (.nav)*/
+.nav {
+    background-color: rgb(0, 0, 0, 0.05);
+    height: 6rem;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.6s;
+
+}
+
+.nav-logo-mypub {
+    position: static;
+    padding: 1rem;
+    display: flex;
+    margin-left: 2rem;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.nav-ul {
+    justify-content: flex-end;
+    display: inline-flex;
+    float: right;
+
+
+}
+
+.nav-li {
+    color: white;
+    margin-left: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2rem;
+}
+
+.nav-li:hover {
+    color: rgb(230, 74, 63);
+    cursor: pointer;
+}
+
+.nav-btn-ex {
+    width: 17rem;
+    height: 4rem;
+    border-radius: 0.7rem;
+    background-color: white;
+    color: #111;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /*transição*/
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+
+    transition: .5s;
+
+}
+
+.nav-btn-ex:hover {
+    cursor: pointer;
+    background-color: rgb(230, 74, 63);
+
+
+}
+
+
+/*#endregion*/
+
+/*#region NAVBAR2 (.nav)*/
+.nav2 {
+    background-color: white;
+    height: 4rem;
+    width: 100vw;
+    position: fixed;
+    justify-content: space-around;
+
+}
+
+.nav2-logo-mypub {
+    position: static;
+    padding: 1rem;
+    display: flex;
+    margin-left: 2rem;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.nav2-ul {
+    justify-content: flex-end;
+    display: inline-flex;
+    float: right;
+
+
+}
+
+.nav2-li {
+    color: rgb(26, 26, 26);
+    margin-left: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2rem;
+}
+
+.nav2-li:hover {
+    color: rgb(230, 74, 63);
+    cursor: pointer;
+}
+
+.nav2-btn-ex {
+    width: 13rem;
+    font-size: 1.2rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    background-color: rgb(26, 26, 26);
+    ;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /*transição*/
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+
+    transition: .5s;
+
+}
+
+.nav2-btn-ex:hover {
+    cursor: pointer;
+    background-color: rgb(230, 74, 63);
+
+
+}
+
+
+/*#endregion*/
+
+
+/*PADRÕES*/
+
+/*Pos*/
+.d-flex {
+    display: flex;
+}
+
+.j-content-space-between{
+    justify-content: space-between;
+
+}
+
+.j-content-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+/*#region Margens*/
+.m-1 {
+    margin: 1rem;
+
+}
+
+.m-2 {
+    margin: 2rem;
+
+}
+
+.m-3 {
+    margin: 3rem;
+
+}
+
+.m-4 {
+    margin: 4rem;
+
+}
+
+.m-5 {
+    margin: 5rem;
+
+}
+
+.m-6 {
+    margin: 6rem;
+
+}
+
+.m-t-1 {
+    margin-top: 1rem;
+
+}
+
+.m-t-2 {
+    margin-top: 2rem;
+
+}
+
+.m-t-3 {
+    margin-top: 3rem;
+
+}
+
+.m-t-4 {
+    margin-top: 4rem;
+
+}
+
+.m-t-5 {
+    margin-top: 5rem;
+
+}
+
+.m-t-6 {
+    margin-top: 6rem;
+
+}
+
+.m-l-05 {
+    margin-left: 0.5rem;
+
+}
+
+.m-l-1 {
+    margin-left: 1rem;
+
+}
+
+.m-l-2 {
+    margin-left: 2rem;
+
+}
+
+.m-l-3 {
+    margin-left: 3rem;
+
+}
+
+.m-l-4 {
+    margin-left: 4rem;
+
+}
+
+.m-l-5 {
+    margin-left: 5rem;
+
+}
+
+.m-l-6 {
+    margin-left: 6rem;
+
+}
+
+.m-l-7 {
+    margin-left: 7rem;
+
+}
+
+.m-l-8 {
+    margin-left: 8rem;
+
+}
+
+.m-l-9 {
+    margin-left: 9rem;
+
+}
+
+.m-l-10 {
+    margin-left: 10rem;
+
+}
+
+.m-l-11 {
+    margin-left: 11rem;
+
+}
+
+.m-l-12 {
+    margin-left: 12rem;
+
+}
+
+.m-l-13 {
+    margin-left: 13rem;
+
+}
+
+.m-l-14 {
+    margin-left: 14rem;
+
+}
+
+.m-l-15 {
+    margin-left: 15rem;
+
+}
+
+.m-l-18 {
+    margin-left: 18rem;
+
+}
+
+.m-r-05 {
+    margin-right: 0.5rem;
+
+}
+
+.m-r-1 {
+    margin-right: 1rem;
+
+}
+
+.m-r-2 {
+    margin-right: 2rem;
+
+}
+
+.m-r-3 {
+    margin-right: 3rem;
+
+}
+
+.m-r-4 {
+    margin-right: 4rem;
+
+}
+
+.m-r-5 {
+    margin-right: 5rem;
+
+}
+
+
+.m-b-1 {
+    margin-bottom: 1rem;
+
+}
+
+.m-b-2 {
+    margin-bottom: 2rem;
+
+}
+
+.m-b-3 {
+    margin-bottom: 3rem;
+
+}
+
+.m-b-4 {
+    margin-bottom: 4rem;
+
+}
+
+.m-b-5 {
+    margin-bottom: 5rem;
+
+}
+
+.m-b-7 {
+    margin-bottom: 7rem;
+
+}
+
+.m-l-r-13 {
+    margin-left: 13rem;
+    margin-right: 13rem;
+
+}
+
+/*#endregion*/
+
+/*#region Padding*/
+.p-1 {
+    padding: 1rem;
+
+}
+
+.p-2 {
+    padding: 2rem;
+
+}
+
+.p-3 {
+    padding: 3rem;
+
+}
+
+.p-4 {
+    padding: 4rem;
+
+}
+
+.p-5 {
+    padding: 5rem;
+
+}
+
+/*#endregion*/
+/*Fontes*/
+.font-Open {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*#region PART 1*/
+.all-hero {
+    background-image: url("../images/hero/hero-index.svg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+    box-sizing: border-box;
+
+}
+
+.hero-font-col-l {
+    font-size: 2.3rem;
+    line-height: 50px;
+    font-weight: inherit;
+    margin: 5rem 10rem 1.5rem 7rem;
+    padding-left: 1rem;
+    font-family: "Baloo 2";
+    color: white;
+    letter-spacing: 0;
+    opacity: 1;
+
+}
+
+
+.hero-font-col-sub {
+    font-size: 1.6rem;
+    font-weight: 200;
+    margin: 0rem 8.2rem;
+    font-family: "Open Sans";
+    color: white;
+    letter-spacing: 0;
+    opacity: 1;
+
+}
+
+.hero-btn-ex {
+    cursor: pointer;
+    width: 13rem;
+    height: 4rem;
+    border-radius: 0.7rem;
+    background-color: #e64a3f;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    transition-duration: 1s;
+
+
+
+
+}
+
+.hero-btn-ex:hover {
+    margin-left: -0.5rem;
+
+
+}
+
+.hero-btn-ex:hover .hero-btn-ex-icon {
+    transition-duration: 3s;
+    display: block !important;
+
+}
+
+.hero-btn-ex-icon {
+    display: none !important;
+    margin-left: 0.5rem;
+    transition-duration: 3s;
+
+}
+
+
+.f-bold {
+    font-weight: bold;
+
+}
+
+.hero-arrow-animation {
+    position: relative;
+    animation: teste 1s infinite;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-arrow {
+    border-radius: 0.1rem;
+    border-right: 0.3rem solid white;
+    border-bottom: 0.3rem solid white;
+    border-color: white;
+    width: 3rem;
+    height: 3rem;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+
+}
+
+.hero-arrow-txt {
+    font-family: "Open Sans";
+    letter-spacing: 0.2rem;
+    color: white;
+    font-weight: 600;
+
+}
+
+@keyframes teste {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 15px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+/*#endregion*/
+/*#region PART 2*/
+.part-2-title {
+    font-family: "Baloo 2";
+    color: rgb(230, 74, 63);
+    font-weight: 900;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+
+}
+
+.part-2-subtitle {
+    font-family: "Open Sans";
+    color: black;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*#region CARD'S*/
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 4em 0rem;
+    gap: 10rem;
+
+}
+
+.card {
+    width: 18rem;
+    height: 38rem;
+    background-color: #f5f5f5;
+    display: flex;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 0.3em #b8b8b8;
+    flex-wrap: wrap;
+
+}
+
+.card-img {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+    overflow: hidden;
+
+
+}
+
+.card-content {
+    width: 100%;
+    display: flex;
+    height: 25rem;
+    margin: 1.5em;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.card-content-title {
+    height: 4rem;
+    font-family: "Baloo 2";
+    font-weight: Bold;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    ;
+
+
+}
+
+.card-content-text {
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.01rem;
+    line-height: 1.5rem;
+
+}
+
+.card-content-btn {
+    cursor: pointer;
+    width: 13rem;
+    height: 4rem;
+    border-radius: 0.7rem;
+    background-color: #e64a3f;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    transition-duration: 1s;
+}
+
+.card-content-btn:hover {
+    margin-left: -0.5rem;
+
+
+}
+
+.card-content-btn:hover .card-content-btn-icon {
+    transition-duration: 3s;
+    display: block !important;
+
+}
+
+.card-content-btn-icon {
+    display: none !important;
+    margin-left: 0.5rem;
+    transition-duration: 3s;
+
+}
+
+/*#endregion*/
+
+/*#endregion*/
+/*#region PART 3*/
+.gest-pedidos {
+    display: flex;
+    /*ARRUMAR CALC*/
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.gest-pedidos-img {
+    display: flex;
+    height: 24rem;
+
+}
+
+.gest-pedidos-txts {
+    width: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    padding: 3rem 0rem;
+
+}
+
+.gest-pedidos-txts-title {
+    font-family: "Baloo 2";
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: rgb(230, 74, 63);
+    margin-top: 0rem;
+
+}
+
+.gest-pedidos-txts-subtitle {
+    font-family: "Open Sans";
+    color: black;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 1rem;
+    padding-right: 3rem;
+
+}
+
+.text-content {
+    font-family: "Open Sans";
+    color: #414141;
+    font-size: 1.2rem;
+    padding-right: 4rem;
+
+
+}
+
+
+/*#endregion*/
+/*#region PART 4*/
+
+.circles {
+    display: flex;
+    justify-content: space-around;
+    gap: 9rem;
+    margin: 0 5rem;
+
+}
+
+.circle {
+    flex-wrap: wrap;
+    align-items: center;
+
+
+
+}
+
+.circle-sz {
+    width: 6rem;
+    height: 6rem;
+    background-color: #181818;
+    border-radius: 10rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    margin-bottom: 2rem;
+
+
+}
+
+.circle-icon {}
+
+.circle-title {
+    font-family: "Baloo 2";
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.circle-text-content {
+    font-family: "Open Sans";
+    color: #414141;
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+/*#endregion*/
+/*#region PART 5*/
+.part5-div-1 {
+    width: 50%;
+
+
+}
+.part5-div-1-title{
+    font-family: "Baloo 2";
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: rgb(230, 74, 63);
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.part5-div-1-subtitle{
+font-family: "Open Sans";
+color: black;
+font-weight: lighter;
+font-size: 2.5rem;
+flex-wrap: wrap;
+justify-content: left;
+margin-top: 1rem;
+padding-right: 3rem;
+line-height: 3.7rem;
+}
+
+.part5-div-1-subtitle2{
+    font-family: "Open Sans";
+    color: black;
+    font-weight: 400;
+    font-size: 1.05rem;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 3rem;
+    padding-right: 3rem;
+    line-height: 1.7rem;
+    }
+    
+
+.part5-div-2 {
+    width: 50%;
+
+
+}
+
+.part5-div-2-img{
+    width: auto;
+    height: auto;
+    background-size: cover;
+    object-fit: fill;
+
+}
+
+/*#endregion*/
+/*#region PART 6*/
+.part6{
+    background-color: rgb(230, 74, 63);
+    border-radius: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.part6-left{
+    align-self: center;
+}
+
+.part6-right{
+    align-self: center;
+}
+
+.part6-left-title{
+    font-family: "Baloo 2";
+    font-weight: bold;
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+.part6-left-subtitle{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 2.2rem;
+    color: whitesmoke;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+}
+
+.part6-right-card-content-btn {
+    cursor: pointer;
+    padding: 20px 25px;
+    border-radius: 2rem;
+    background-color: rgb(60, 190, 60);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    transition: all 0.5s ease-in-out;
+    margin-right: 15rem;
+    position: relative;
+}
+
+.part6-right-card-content-btn:hover {
+    padding-right: 40px;
+}
+
+.part6-right-card-content-btn:hover .part6-right-card-content-btn-icon {
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+.part6-right-card-content-btn-icon {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translateX(80%) translateY(-50%);
+
+    transition-duration: 0.7s;
+    opacity: 0;
+}
+
+
+
+/*#endregion*/
+/*#region PART 7*/
+.footer-table-title{
+    font-family: "Baloo 2";
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: rgb(230, 74, 63);
+    text-align: left;
+
+
+}
+
+tr .footer-table-content:first-child{
+    margin-right: 40px;
+}
+
+.footer-table-content{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgb(29, 27, 27);
+    padding: 1rem 1rem 1rem 0rem;
+    text-align: left;
+}
+
+.footer-table-content:hover{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(230, 74, 63);
+    padding: 1rem 1rem 1rem 0rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.footer{
+    margin-right: 5rem;
+    width: 12rem;
+}
+
+.t{
+    line-height: 2rem;
+
+}
+
+/*#endregion*/
+/*Div's*/
+
+.w-20{
+    width: 20rem;
+
+}
+.w-80-perc{
+    width: 80%;
+
+
+}
+
+.vh-100 {
+    height: 100vh;
+
+}
+
+.vw-99 {
+    width: 99vw;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+
+}
+
+.col-md {
+    width: 50%;
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
